@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <main>
+      <main style={{ background: '#030303', display: 'block', margin: 0, padding: 0 }}>
         <Hero />
         <Services />
         <Portfolio />
