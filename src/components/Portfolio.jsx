@@ -38,57 +38,57 @@ const projects = [
       { label: 'Score',    value: '99/100' },
     ],
   },
-  {
-    title: 'FitZone Gym',
-    category: 'Gym Website',
-    description:
-      'A bold, high-energy website for a local gym featuring membership plans, class schedules, trainer profiles, and a lead-capture form.',
-    tags: ['React', 'Tailwind CSS', 'Responsive'],
-    accent: '#ff6b35',
-    accentDark: '#c0440a',
-    color: 'from-orange-900/80 to-red-900/80',
-    icon: '🏋️',
-    isImage: false,
-    stats: [
-      { label: 'Pages',     value: '5' },
-      { label: 'Load Time', value: '<1s' },
-      { label: 'Score',     value: '98/100' },
-    ],
-  },
-  {
-    title: 'Spice Garden Restaurant',
-    category: 'Restaurant Website',
-    description:
-      'An elegant, appetite-whetting website for a restaurant with digital menu, table booking form, gallery, and Google Maps integration.',
-    tags: ['React', 'CSS Animations', 'SEO'],
-    accent: '#f59e0b',
-    accentDark: '#b45309',
-    color: 'from-amber-900/80 to-orange-900/80',
-    icon: '🍽️',
-    isImage: false,
-    stats: [
-      { label: 'Pages',     value: '4' },
-      { label: 'Load Time', value: '<0.8s' },
-      { label: 'Score',     value: '96/100' },
-    ],
-  },
-  {
-    title: 'LaunchPad SaaS',
-    category: 'Startup Landing Page',
-    description:
-      'A conversion-optimized landing page for a SaaS startup with hero section, feature highlights, pricing table, and waitlist signup.',
-    tags: ['React', 'Framer Motion', 'CRO'],
-    accent: '#6366f1',
-    accentDark: '#3730a3',
-    color: 'from-blue-900/80 to-indigo-900/80',
-    icon: '🚀',
-    isImage: false,
-    stats: [
-      { label: 'Conv. Rate', value: '+40%' },
-      { label: 'Load Time',  value: '<0.9s' },
-      { label: 'Score',      value: '99/100' },
-    ],
-  },
+  // {
+  //   title: 'FitZone Gym',
+  //   category: 'Gym Website',
+  //   description:
+  //     'A bold, high-energy website for a local gym featuring membership plans, class schedules, trainer profiles, and a lead-capture form.',
+  //   tags: ['React', 'Tailwind CSS', 'Responsive'],
+  //   accent: '#ff6b35',
+  //   accentDark: '#c0440a',
+  //   color: 'from-orange-900/80 to-red-900/80',
+  //   icon: '🏋️',
+  //   isImage: false,
+  //   stats: [
+  //     { label: 'Pages',     value: '5' },
+  //     { label: 'Load Time', value: '<1s' },
+  //     { label: 'Score',     value: '98/100' },
+  //   ],
+  // },
+  // {
+  //   title: 'Spice Garden Restaurant',
+  //   category: 'Restaurant Website',
+  //   description:
+  //     'An elegant, appetite-whetting website for a restaurant with digital menu, table booking form, gallery, and Google Maps integration.',
+  //   tags: ['React', 'CSS Animations', 'SEO'],
+  //   accent: '#f59e0b',
+  //   accentDark: '#b45309',
+  //   color: 'from-amber-900/80 to-orange-900/80',
+  //   icon: '🍽️',
+  //   isImage: false,
+  //   stats: [
+  //     { label: 'Pages',     value: '4' },
+  //     { label: 'Load Time', value: '<0.8s' },
+  //     { label: 'Score',     value: '96/100' },
+  //   ],
+  // },
+  // {
+  //   title: 'LaunchPad SaaS',
+  //   category: 'Startup Landing Page',
+  //   description:
+  //     'A conversion-optimized landing page for a SaaS startup with hero section, feature highlights, pricing table, and waitlist signup.',
+  //   tags: ['React', 'Framer Motion', 'CRO'],
+  //   accent: '#6366f1',
+  //   accentDark: '#3730a3',
+  //   color: 'from-blue-900/80 to-indigo-900/80',
+  //   icon: '🚀',
+  //   isImage: false,
+  //   stats: [
+  //     { label: 'Conv. Rate', value: '+40%' },
+  //     { label: 'Load Time',  value: '<0.9s' },
+  //     { label: 'Score',      value: '99/100' },
+  //   ],
+  // },
 ]
 
 export default function Portfolio() {
@@ -127,11 +127,11 @@ export default function Portfolio() {
           </div>
 
           {/* Other projects */}
-          <div className="grid md:grid-cols-3 gap-6">
+          {/* <div className="grid md:grid-cols-3 gap-6">
             {projects.filter(p => !p.isImage).map((project, i) => (
               <ProjectCard key={project.title} project={project} delay={i * 0.1} />
             ))}
-          </div>
+          </div> */}
         </div>
 
         {/* Bottom CTA */}

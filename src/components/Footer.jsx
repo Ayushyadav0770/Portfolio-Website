@@ -31,9 +31,8 @@ export default function Footer() {
               className="inline-block mb-4"
             >
               <span className="font-display font-bold text-xl tracking-tight" style={{ letterSpacing: '-0.03em' }}>
-                <span className="text-white">Make</span>
-                <span className="text-gradient-animated">My</span>
-                <span className="text-white">Website</span>
+                <span className="text-white">Site</span>
+                <span className="text-gradient-animated">Rise</span>
               </span>
             </a>
             <p style={{ fontSize: '13px', lineHeight: '1.7', color: 'rgba(255,255,255,0.3)', fontFamily: 'Plus Jakarta Sans', marginBottom: '20px' }}>
@@ -44,7 +43,7 @@ export default function Footer() {
             <div className="flex gap-2.5">
               {[
                 {
-                  href: 'https://wa.me/919876543210',
+                  href: 'https://wa.me/917909519682',
                   label: 'WhatsApp',
                   hoverBg: '#16a34a',
                   icon: (
@@ -149,14 +148,14 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-between items-center gap-3">
           <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)', fontFamily: 'Plus Jakarta Sans' }}>
-            &copy; {year} MakeMyWebsite. All rights reserved.
+            &copy; {year} SiteRise. All rights reserved.
           </p>
-          <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)', fontFamily: 'Plus Jakarta Sans' }}>
+          {/* <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.2)', fontFamily: 'Plus Jakarta Sans' }}>
             Built with{' '}
             <span style={{ color: '#d4a853' }}>React</span>
             {' '}&{' '}
             <span style={{ color: '#d4a853' }}>Tailwind CSS</span>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

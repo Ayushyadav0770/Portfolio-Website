@@ -109,7 +109,7 @@ export default function Contact() {
                 ),
                 label: 'WhatsApp',
                 value: '+91 7909519682',
-                href: 'https://wa.me/919876543210?text=Hi!%20I\'d%20like%20to%20discuss%20a%20website%20project.',
+                href: 'https://wa.me/917909519682?text=Hi!%20I\'d%20like%20to%20discuss%20a%20website%20project.',
                 color: '#22c55e',
               },
             ].map((item) => (
@@ -149,7 +149,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/919876543210?text=Hi!%20I'd%20like%20to%20discuss%20a%20website%20project."
+              href="https://wa.me/9179090519682?text=Hi!%20I'd%20like%20to%20discuss%20a%20website%20project."
               target="_blank"
               rel="noopener noreferrer"
               className="group flex items-center justify-center gap-3 w-full font-display font-semibold py-4 px-6 rounded-xl transition-all duration-300"

@@ -70,12 +70,11 @@ export default function Navbar() {
               className="font-display font-bold text-xl tracking-tight"
               style={{ letterSpacing: '-0.03em' }}
             >
-              <span className="text-white group-hover:text-white/90 transition-colors">Make</span>
+              <span className="text-white group-hover:text-white/90 transition-colors">Site</span>
               <span
                 className="text-gradient-animated"
                 style={{ fontWeight: 800 }}
-              >My</span>
-              <span className="text-white group-hover:text-white/90 transition-colors">Website</span>
+              >Rise</span>
             </span>
             {/* Glow on logo hover */}
             <span
